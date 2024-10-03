@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float Biomechanic, enteghal_hararat, Microprocessor, X, Y, Z, Average;
+    
+    cout<< "Nomre va tedad vahed khod  ra vared konid:\n";
+    cout<< "Biomechanic=";
+    cin>> Biomechanic;
+    cout<< "Tedad vahed=";
+    cin>> X;
+   
+    cout<< "enteghal_hararat=";
+    cin>> enteghal_hararat;
+    cout<< "Tedad vahed=";
+    cin>> Y;
+    
+    cout<< "Microprocessor=";
+    cin>> Microprocessor;
+    cout<< "Tedad vahed=";
+    cin>> Z;
+    
+    Average = (Biomechanic*X + enteghal_hararat*Y + Microprocessor*Z)/(X+Y+Z);
+    cout<<"Average="<<Average;
+    return Average;
+}
