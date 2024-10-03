@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float X, Y, Z, W, multiplication;
+    
+    cout<< "Write numbers:\n";
+    cout<< "Number one=";
+    cin>> X;
+   
+    cout<< "Number two=";
+    cin>> Y;
+    
+    cout<< "Number three=";
+    cin>> Z;
+    
+    cout<< "Number four=";
+    cin>> W;
+    
+    multiplication = (X*Y*Z*W);
+    cout<<"multiplication="<<multiplication;
+    return multiplication;
+}
