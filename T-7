@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+    
+    cout<< "  ^ "<< "  ^"<<endl;
+    cout<< "( o v o )"<<endl;
+    cout<< "    o"<<endl;
+    
+    return 0;
+}
+    
