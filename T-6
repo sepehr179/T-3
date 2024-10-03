@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+    int A;
+    int B;
+    cout<<"A=";
+    cin>> A;
+    cout<<"B=";
+    cin>> B;
+    
+    A=A+B;
+    B=A-B;
+    A=A-B;
+
+    
+    cout<< "After A="<< A<<endl;
+    cout<< "After B="<< B<<endl;
+    
+    return 0;
+}
+    
