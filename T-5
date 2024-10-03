@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    double radius;
+    
+    cout<<"Write radius.\n";
+    cin>> radius;
+    
+    double circumference = 3.14*radius*2;
+    double area = 3.14*radius*radius;
+    
+    cout << "Circumference: " << circumference << endl;
+    cout << "Area: " << area << endl;
+    
+    return 0;
+}
